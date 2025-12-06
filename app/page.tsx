@@ -1,14 +1,11 @@
-import ThemeToggle from "./components/theme-toggle";
+import Navigation from "./components/Navigation";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
-      {/* Temporary theme toggle - will move to Navigation later */}
-      <div className="absolute top-4 right-4 z-50">
-        <ThemeToggle />
-      </div>
-
-      <header>{/* Navigation component will go here */}</header>
+      <header>
+        <Navigation />
+      </header>
 
       <main>
         {/* Hero Section */}
